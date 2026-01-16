@@ -1,0 +1,13 @@
+{
+    // Python 自动导入配置
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.addImport.exactMatchOnly": false,
+    // 保存时自动整理 imports
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    // 导入格式化设置
+    "python.analysis.autoFormatStrings": true,
+    // 类型检查模式 (需要 Pylance)
+    "python.analysis.typeCheckingMode": "basic"
+}
